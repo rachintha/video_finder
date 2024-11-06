@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Video Link Finder",
+  "version": "1.0",
+  "description": "Finds video download links on a page.",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}

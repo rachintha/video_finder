@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Link Finder</title>
+  <style>
+    body {
+      width: 350px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 18px;
+      color: #4CAF50;
+      margin: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px;
+    }
+    li {
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    a {
+      text-decoration: none;
+      color: #2196F3;
+      margin-right: 10px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d32f2f;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Video Links</h1>
+    <button id="clear-all">Clear All</button>
+    <ul id="video-links"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
